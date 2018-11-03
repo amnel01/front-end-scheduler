@@ -4,10 +4,11 @@ import propTypes from 'prop-types';
 import './style.css';
 import Card from '../common/Card';
 import DateHelpers from '../../helpers/date';
+import ColorHelpers from '../../helpers/color';
 
 const ScheduledEvent = ({ eventName, coachName, datetime }) => (
   <Card className="scheduled-event">
-    <div className="datetime">
+    <div className="datetime" style={{ color: ColorHelpers.getRandomColor() }}>
       <h3 className="day">{DateHelpers.formatDay(datetime)}</h3>
       <h3 className="time">{DateHelpers.formatTime(datetime)}</h3>
     </div>
