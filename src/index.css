@@ -8,6 +8,7 @@
   --border-color: #ccc;
   --border-radius: 4px;
   --spacing: 8px;
+  --spacing-2: calc(var(--spacing) * 2);
 }
 
 body {
