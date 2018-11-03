@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  border: 1px dashed red;
+}
+
+.home-page .available-events header ul {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}
