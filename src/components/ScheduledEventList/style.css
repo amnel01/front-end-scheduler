@@ -1,0 +1,11 @@
+.scheduled-event-list {
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  padding: 16px;
+}
+
+.scheduled-event-list .scheduled-event {
+  max-height: 120px;
+  margin-bottom: 16px;
+}
